@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kaynak Dosyalar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\sezilinalg">
+      <UniqueIdentifier>{5c03a5ce-9bcb-44c1-9fc0-5256ac35cae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\sezilinalg\objects">
+      <UniqueIdentifier>{ec920879-758b-4fa0-9021-a35f2ca4daa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\sezilinalg">
+      <UniqueIdentifier>{1726e661-bd67-4535-9f5f-5ea650f4996f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\sezilinalg\objects">
+      <UniqueIdentifier>{d89737d4-a191-4ab4-abaf-e7bf3e63ae55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\sezilinalg\objects\fillers">
+      <UniqueIdentifier>{e92cb235-c8fd-4d58-a03c-6167b6bf9823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\sezilinalg\objects\fillers">
+      <UniqueIdentifier>{95b4c947-f704-4470-80af-c4b2a200101a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sezilinalg.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Kaynak Dosyalar\sezilinalg\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="fillers.cpp">
+      <Filter>Kaynak Dosyalar\sezilinalg\objects\fillers</Filter>
+    </ClCompile>
+    <ClCompile Include="Operations.cpp">
+      <Filter>Kaynak Dosyalar\sezilinalg\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Kaynak Dosyalar\sezilinalg\objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sezilinalg.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Üst Bilgi Dosyaları\sezilinalg\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Üst Bilgi Dosyaları\sezilinalg\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="fillers.h">
+      <Filter>Üst Bilgi Dosyaları\sezilinalg\objects\fillers</Filter>
+    </ClInclude>
+    <ClInclude Include="Operations.h">
+      <Filter>Üst Bilgi Dosyaları\sezilinalg\objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

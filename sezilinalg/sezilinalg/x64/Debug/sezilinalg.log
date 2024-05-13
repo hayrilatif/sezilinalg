@@ -1,0 +1,10 @@
+﻿  fillers.cpp
+  Matrix.cpp
+C:\Users\hayri\Masaüstü\Desktop\Projects\sezilinalg\sezilinalg\Matrix.cpp(16,18): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\hayri\Masaüstü\Desktop\Projects\sezilinalg\sezilinalg\Matrix.cpp(20,18): warning C4244: '=': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  Operations.cpp
+C:\Users\hayri\Masaüstü\Desktop\Projects\sezilinalg\sezilinalg\Operations.cpp(170,27): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+  sezilinalg.cpp
+  structs.cpp
+  Kod Üretiliyor...
+  sezilinalg.vcxproj -> C:\Users\hayri\Masaüstü\Desktop\Projects\sezilinalg\sezilinalg\x64\Debug\sezilinalg.lib
