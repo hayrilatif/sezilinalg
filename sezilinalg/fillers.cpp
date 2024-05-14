@@ -1,5 +1,6 @@
 #include "fillers.h"
-#include <vcruntime_string.h>
+#include <random>
+#include <stdlib.h>
 
 namespace sezilinalg {
 	namespace objects {
@@ -26,6 +27,20 @@ namespace sezilinalg {
 				for (int i = 0; i < x.shape.size_c; i++)
 				{
 					x.setElement(i, i, 1);
+				}
+			}
+
+			void randomNormalMatrix(Matrix& x, float mean, float std, unsigned int seed) {
+				int size = x.getSize();
+
+				float* _d = x.d;
+
+				auto dist = std::normal_distribution<float>{ mean, std };
+				auto urbg = std::mt19937{ seed };
+
+				for (int i = 0; i < size; i++)
+				{
+					*_d++ = dist(urbg);
 				}
 			}
 		}
